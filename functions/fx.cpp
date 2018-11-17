@@ -2,7 +2,7 @@
 using namespace std;
 
 void newLine() {
-    cout  << endl;
+    cout << endl;
 }
 
 void threeLine () {

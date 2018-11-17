@@ -9,7 +9,7 @@ void testBool () {
   bool testResult = false;
   bool evenFlag = (n % 2 == 0); // true if n is even
   bool positiveFlag = (x > 0); // true if x is positiveFlag
-  if (evenFlag && n % 2 == 0) { // "flag" for the presence or absence of some condition
+  if (evenFlag) { // "flag" for the presence or absence of some condition
     cout << "Value 'n' must be even!" << endl;
   }
 }
